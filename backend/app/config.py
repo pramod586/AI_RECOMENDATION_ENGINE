@@ -17,7 +17,7 @@ ENV_FILE = BASE_DIR / ".env"
 # Load environment variables from backend/.env
 load_dotenv(
     dotenv_path=ENV_FILE,
-    override=True,
+    override=False,
 )
 
 
